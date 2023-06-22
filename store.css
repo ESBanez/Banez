@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    
+}
+
+    header {
+        
+        background-color: #884A39;
+        width: 100%;
+        font-family: sans-serif;
+    }
+        .icon-logo {
+            padding-inline-start: 2rem;
+        }
+        
+        .ul-nav {
+            padding-inline-end: 3rem;
+        }
+        
+        #logo {
+            border-radius: 50%;
+
+        }
+        #top {
+            
+        }
