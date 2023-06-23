@@ -6,9 +6,10 @@
 
     header {
         
-        background-color: #884A39;
+        background-color: black;
         width: 100%;
         font-family: sans-serif;
+        height: 10rem;
         
         }
     
@@ -35,14 +36,16 @@
             right: 0;
             bottom: 0;
             z-index: -1;
-            filter: opacity(80%);
-            margin-top: -12rem;
+            filter: opacity(95%);
+            margin-top: 1rem;
+            
             
           }
         .navbar {
             z-index: -1;
             background-color: black;
-            filter: opacity(70%);
+            filter: opacity(60%);
+            margin-top: 1rem;
         }
 
         .nav-item {
@@ -50,3 +53,5 @@
             margin: 0 0.5rem 0 0.5rem;
             
         }
+
+      
