@@ -6,16 +6,20 @@
 
     header {
         
-        background-color: black;
+        
         width: 100%;
         font-family: sans-serif;
         height: 10rem;
-        
+        background-color: rgb(78, 55, 40);
+
         }
     
         #logo {
             margin-left: 2rem;
             border-radius: 50%;
+            height: 5rem;
+            width: 5rem;
+            margin-top: 0.5rem;
         }
         
         .ul-nav {
@@ -43,15 +47,63 @@
           }
         .navbar {
             z-index: -1;
-            background-color: black;
-            filter: opacity(60%);
-            margin-top: 1rem;
+            background-color: rgb(78, 55, 40);
+
         }
 
         .nav-item {
             font-size: 1rem;
             margin: 0 0.5rem 0 0.5rem;
+            filter: opacity(50);
+            
+
+        }
+        /********************************/
+
+        .nav-link:hover + .store-sub-nav { /**yung + ay para sa katabing sibling hindi child take note**/
+            visibility: visible;
+            opacity: 1;
+            margin-top: 0vh;
+          }
+          
+          .store-sub-nav {
+            background-color: black;
+            list-style-type: none;
+            position: absolute;
+            padding: 0;
+            margin-top: 2vh;
+          /** display: none;  to make it invisible**/
+            visibility: hidden;
+            opacity: 0;
+            transition: 1s;
+            
+          }
+          
+          .store-sub-nav:hover {
+            background-color: #28b972;
+            
+          }
+          
+          
+          .store-sub-nav > li {
+            padding: 0.5vw;
+          }
+          .store-sub-nav > li > a {
+            text-decoration: none;
+            text-transform: capitalize;
+            color: white;
+            
+          }
+
+
+        /********************************/
+
+        .backnav {
             
         }
-
       
+        @media screen and (max-width: 480px) {
+            .store-sub-nav {
+                display: none;
+            }
+         }
