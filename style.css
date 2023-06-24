@@ -10,11 +10,15 @@
     .store-sub-nav {
         display: none;
     }
+  
     
     #backnav {
         background-color: rgb(0, 0, 0);
-
+        filter: opacity(90%);
     }
+    .carousel {
+      display: none;
+     } 
  }
 
     header {
@@ -43,9 +47,7 @@
             border-radius: 50%;
 
         }
-        #top {
-            
-        }
+      
         #intro-vid {
             display: flex;
             justify-content: center;
@@ -95,7 +97,7 @@
           }
           
           .store-sub-nav:hover {
-            background-color: ##C38154;
+            background-color: #C38154;
             
           }
           
@@ -113,16 +115,10 @@
 
         /********************************/
 
-        
-      
-        
-
-    article {
-        background-color: #884A39;
-        width: 100%;
-        justify-content: center;
-        line-height: 1rem;
-       
-       
+    .carousel-inner {
+      padding: 0 15rem 1rem 15rem;
     }
-       
+    .carousel-item > img {
+      height: 50rem;
+   
+     } 
