@@ -138,8 +138,6 @@ html {
             filter: opacity(50);
         }
         
-        /********************************/
-
         .nav-link:hover + .store-sub-nav { /**yung + ay para sa katabing sibling hindi child take note**/
             visibility: visible;
             opacity: 1;
@@ -192,7 +190,7 @@ html {
      }
 
 
-     /********************products*********************/
+     /********************choices 101*********************/
      .column {
       
       display: inline-block;
@@ -208,15 +206,6 @@ html {
     
     .card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-    
-    .presentation {
-      padding: 0 16px;
-    }
-    
-    
-    .title {
-      color: grey;
     }
     
     .whole{

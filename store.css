@@ -1,0 +1,168 @@
+html {
+    box-sizing: border-box;
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    }
+  /*****************************Phone Media Responsiveness*******************************/
+  
+  @media screen and (max-width: 480px) {
+      .store-sub-nav {
+          display: none;
+      }
+    
+      #backnav {
+          background-color: rgb(0, 0, 0);
+          filter: opacity(90%);
+      }
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+    /*****************************Laptop***************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*******************************End of media*********************************/
+
+    header {
+        width: 100%;
+        font-family: sans-serif;
+        height: auto;
+        position: sticky;
+        margin-top: -7rem;
+        width: 100%;
+        
+        }
+    
+        #logo {
+            margin-left: 2rem;
+            border-radius: 50%;
+            height: 5rem;
+            width: 5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .ul-nav {
+            padding-inline-end: 3rem;
+        }
+        
+        #logo {
+            border-radius: 50%;
+
+        }
+      
+        #intro-vid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 0;
+            bottom: 0;
+            z-index: -1; 
+          }
+
+        .navbar {
+            z-index: -1;
+            background-color: rgba(54, 50, 48, 0.5);
+        }
+
+        .nav-item {
+            font-size: 1rem;
+            margin: 0 0.5rem 0 0.5rem;
+            filter: opacity(50);
+        }
+        
+        /********************************/
+
+        .nav-link:hover + .store-sub-nav { /**yung + ay para sa katabing sibling hindi child take note**/
+            visibility: visible;
+            opacity: 1;
+            margin-top: 0vh;
+          }
+          
+          .store-sub-nav {
+            background-color: black;
+            list-style-type: none;
+            position: absolute;
+            padding: 0;
+            margin-top: 2vh;
+          /** display: none;  to make it invisible**/
+            visibility: hidden;
+            transition: 1s;
+            
+          }
+          
+          .store-sub-nav:hover {
+            background-color: #C38154;
+            
+          }
+          
+          
+          .store-sub-nav > li {
+            padding: 0.5vw;
+          }
+          .store-sub-nav > li > a {
+            text-decoration: none;
+            text-transform: capitalize;
+            color: white;
+            
+          }
+
+    /******************aside**********************/
+    main {
+    margin-top: -1rem;
+    }
+
+        .column {
+
+            display: inline-block;
+            flex-direction: row;
+            width: 30.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .whole{
+            transition: 1s;
+        }
+        .whole:hover{
+            transform: scale(1.2);
+        }
+
+        main {
+            background-color: rgba(141, 94, 47, 0.8);
+        }
+                
