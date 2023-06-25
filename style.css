@@ -85,10 +85,15 @@ html {
     padding-left: 10rem;
     margin-left: 10rem;
   }
-   
+
+    #contacts {
+        text-indent: 6rem;
+    }
+}
+
 
   
-  }
+  
 
 /*****************************End of Media Responsiveness*******************************/
     header {
@@ -200,10 +205,6 @@ html {
       padding: 0 8px;
     }
 
-
-   
-    
-    
     .card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }

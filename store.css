@@ -10,6 +10,8 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
     }
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
   /*****************************Phone Media Responsiveness*******************************/
   
   @media screen and (max-width: 480px) {
@@ -21,23 +23,23 @@ html {
           background-color: rgb(0, 0, 0);
           filter: opacity(90%);
       }
+      #bed {
+        font-size: 1rem;
+      }
     }
     
-    
-
-
-
-
-
-
+     
 
 
 
     /*****************************Laptop***************************************/
 
 
-
-
+    @media screen and (min-width: 750px) {
+        #contacts {
+            text-indent: 6rem;
+        }
+    }
 
 
 
@@ -117,7 +119,7 @@ html {
             margin-top: 2vh;
           /** display: none;  to make it invisible**/
             visibility: hidden;
-            transition: 1s;
+            transition: 3s;
             
           }
           
@@ -165,4 +167,77 @@ html {
         main {
             background-color: rgba(141, 94, 47, 0.8);
         }
-                
+                /*********************section*********************/
+        #bed {
+        font-family: 'Fasthand', cursive;
+        font-size: 7rem;        
+        }
+        div#masonry { 
+        display: flex; 
+        flex-direction: column; 
+        flex-wrap: wrap;
+        height: 100vw;
+        max-height: 800px;
+        font-size: 0;  
+        }
+        div#masonry img {  
+        width: 33.3%;
+        transition: .8s opacity;
+        } 
+        
+        div#masonry:hover img {
+        opacity: 0.5; }
+        div#masonry:hover img:hover {
+        transform: scale(1.1);
+        opacity: 1; } 
+        
+        
+    /***********************Citation**************************/
+
+    .details-list{
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+      }
+  
+      details {
+        background: #492D25;
+        font-family: "Montserrat",'Segoe UI', sans-serif ;
+        padding-top: 30px;
+        color: var(--text);
+      }
+      
+  
+      /***********************footer****************************/
+      
+      footer {
+        background: black;
+        align-items: center;
+  
+      }
+      .socials {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .socials li{
+        margin: 0 10px;
+      }
+      
+      .socials a{
+        text-decoration: none;
+        color: #f6f6f6;
+        padding: 9.5px;
+        border: 1px solid var(--bg-1);
+        border-radius: 3px;
+        transition: all 0.3s ease;
+      }
+  
+      footer>div>p {
+        color: white;
+        text-indent: 2.1rem;
+      }
+    
+     
