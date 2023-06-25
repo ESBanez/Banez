@@ -80,8 +80,12 @@ html {
     line-height: 150%;
     
    }
+  .container>text {
+    text-indent: 10rem;
+    padding-left: 10rem;
+    margin-left: 10rem;
+  }
    
-  
 
   
   }
@@ -254,9 +258,6 @@ html {
       font-family: "Montserrat",'Segoe UI', sans-serif ;
       padding-top: 30px;
       color: var(--text);
-      justify-content: center;
-      align-items: center;
-      
     }
     
 
@@ -265,14 +266,13 @@ html {
     footer {
       background: black;
       align-items: center;
+
     }
     .socials {
       list-style: none;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 0 5rem 0 5rem 0;
-      
     }
     
     .socials li{
@@ -290,6 +290,7 @@ html {
 
     footer>div>p {
       color: white;
+      text-indent: 2.1rem;
     }
   
    
