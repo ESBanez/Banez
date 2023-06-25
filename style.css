@@ -1,3 +1,6 @@
+html {
+  box-sizing: border-box;
+}
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +34,8 @@
      
 
      .about-text {
-      background-color: rgb(232, 227, 221);
+      background-color: rgb(15, 14, 13, 0.8);
+      color: white;
       padding: 3rem 2rem 3rem 2rem;
       text-align: justify;
       text-transform: capitalize;
@@ -60,7 +64,7 @@
    }
   
   .about-text {
-    background-color: rgb(15, 14, 13);
+    background-color: rgb(15, 14, 13, 0.8);
     color: white;
     width: 50%;
     padding: 3rem 6rem 3rem 6rem;
@@ -111,26 +115,18 @@
             align-items: center;
             right: 0;
             bottom: 0;
-            z-index: -1;
-           
-          
-            
-            
-            
+            z-index: -1; 
           }
+
         .navbar {
             z-index: -1;
             background-color: rgba(54, 50, 48, 0.5);
-            
-
         }
 
         .nav-item {
             font-size: 1rem;
             margin: 0 0.5rem 0 0.5rem;
             filter: opacity(50);
-            
-
         }
         
         /********************************/
@@ -177,14 +173,53 @@
     }
     .carousel-item > img {
       height: 50rem;
-   
      } 
-     
      .about {
       max-width: 100%;
       height: auto;
      }
      .about-photo {
-      border-radius: 8%;
+      border-radius: 8px;
      }
-     
+
+
+     /********************products*********************/
+     .column {
+      
+      display: inline-block;
+      flex-direction: row;
+      width: 30.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+
+   
+    
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .presentation {
+      padding: 0 16px;
+    }
+    
+    
+    .title {
+      color: grey;
+    }
+    
+    .whole{
+      transition: 1s;
+      box-shadow: inset;
+    }
+    .whole:hover{
+      transform: scale(1.2);
+    }
+
+    aside {
+      background-color: rgba(73, 45, 37, 0.8);
+    }
+    
+    
