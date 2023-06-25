@@ -10,7 +10,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
   }
-/***************************** Media Responsiveness*******************************/
+/*****************************Phone Media Responsiveness*******************************/
 
 @media screen and (max-width: 480px) {
     .store-sub-nav {
@@ -41,10 +41,15 @@ html {
       text-transform: capitalize;
       text-indent: 2rem;
       line-height: 150%;
-      
+     }
+      #storage {
+        display: flex;
+        flex-direction: column;
+      }
 
+      
  }
-}
+
 /***************************** laptop*******************************/
 
 @media screen and (min-width: 750px) {
@@ -212,7 +217,6 @@ html {
     
     .whole{
       transition: 1s;
-      box-shadow: inset;
     }
     .whole:hover{
       transform: scale(1.2);
@@ -222,4 +226,65 @@ html {
       background-color: rgba(73, 45, 37, 0.8);
     }
     
+    /***********************figure****************************/
+
+
+    .media {
+      display: flex;
+      justify-content: center;
+    }
+
+    .ads {
+      transition: 1s;
+    }
+    .ads:hover {
+      transform: scale(1.2);
+    }
+
+    /***********************Citation**************************/
+
+    .details-list{
+      list-style: none;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    details {
+      background: #492D25;
+      font-family: "Montserrat",'Segoe UI', sans-serif ;
+      padding-top: 30px;
+      color: var(--text);
+      justify-content: center;
+      align-items: center;
+      
+    }
     
+
+    /***********************footer****************************/
+    
+    footer {
+      background: black;
+    }
+    .socials {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 5rem 0 5rem 0;
+      
+    }
+    
+    .socials li{
+      margin: 0 10px;
+    }
+    
+    .socials a{
+      text-decoration: none;
+      color: #f6f6f6;
+      padding: 9.5px;
+      border: 1px solid var(--bg-1);
+      border-radius: 3px;
+      transition: all 0.3s ease;
+    }
+  
+   
