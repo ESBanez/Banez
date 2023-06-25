@@ -264,6 +264,7 @@ html {
     
     footer {
       background: black;
+      align-items: center;
     }
     .socials {
       list-style: none;
@@ -285,6 +286,10 @@ html {
       border: 1px solid var(--bg-1);
       border-radius: 3px;
       transition: all 0.3s ease;
+    }
+
+    footer>div>p {
+      color: white;
     }
   
    
