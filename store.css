@@ -162,21 +162,21 @@ html {
         font-family: 'Fasthand', cursive;
         font-size: 7rem;        
         }
-        div#masonry { 
+        div#window { 
         display: flex; 
         flex-direction: column; 
         flex-wrap: wrap;
         height: 100vw;
         font-size: 0;  
         }
-        div#masonry img {  
+        div#window img {  
         width: 33.3%;
         transition: .8s opacity;
         } 
         
-        div#masonry:hover img {
+        div#window:hover img {
         opacity: 0.5; }
-        div#masonry:hover img:hover {
+        div#window:hover img:hover {
         transform: scale(1.1);
         opacity: 1; } 
 
