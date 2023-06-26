@@ -43,18 +43,7 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    /*******************************End of media*********************************/
+    /*******************************Navigation*********************************/
 
     header {
         width: 100%;
@@ -102,8 +91,6 @@ html {
             margin: 0 0.5rem 0 0.5rem;
             filter: opacity(50);
         }
-        
-        /********************************/
 
         .nav-link:hover + .store-sub-nav { /**yung + ay para sa katabing sibling hindi child take note**/
             visibility: visible;
@@ -138,7 +125,7 @@ html {
             color: white;
             
           }
-
+ 
     /******************aside**********************/
     main {
     margin-top: -1rem;
@@ -167,7 +154,10 @@ html {
         main {
             background-color: rgba(141, 94, 47, 0.8);
         }
-                /*********************section*********************/
+               
+        
+        /*********************section*********************/
+
         #bed {
         font-family: 'Fasthand', cursive;
         font-size: 7rem;        
@@ -177,7 +167,6 @@ html {
         flex-direction: column; 
         flex-wrap: wrap;
         height: 100vw;
-        max-height: 800px;
         font-size: 0;  
         }
         div#masonry img {  
@@ -190,7 +179,11 @@ html {
         div#masonry:hover img:hover {
         transform: scale(1.1);
         opacity: 1; } 
-        
+
+        .butones {
+          display: flex;
+          justify-content: center;
+        }
         
     /***********************Citation**************************/
 
